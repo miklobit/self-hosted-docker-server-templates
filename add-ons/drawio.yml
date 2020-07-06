@@ -1,5 +1,7 @@
 #This compose file adds Draw.io https://draw.io to your stack
-version: '3.7'
+#version: '3.7'
+# fix version for portainer
+version: '3'
 services:
   reverse-proxy:
     networks:
